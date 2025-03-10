@@ -2,9 +2,9 @@ import React from 'react'
 import bg from "../../assets/bg0.gif"
 import Navbar from '../../components/nav/navbar'
 import "./Home.css"
-import { useState } from 'react'
 import { category } from '../../Category'
 import Product from '../../components/products/Product'
+import { useState } from 'react'
 import { dummydata } from '../../dummydata'
 const Home = () => {
 
