@@ -35,7 +35,7 @@ const Home = () => {
             <h1>Trending Products </h1>
             <div className="product-section">
                 {cat.slice(0, 7).map((item) => (
-                    <Product key={item.id} name={item.name} image={item.image} price={item.price} />
+                    <Product key={item.id} name={item.name} image={item.image} price={item.price} id={item.id} />
                 ))}
 
 

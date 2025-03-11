@@ -36,7 +36,7 @@ const Shop = () => {
             </div>
             <div className="product-section">
                 {cat.map((item) => (
-                    <Product key={item.id} name={item.name} image={item.image} price={item.price} />
+                    <Product key={item.id} name={item.name} image={item.image} price={item.price} id={item.id} />
                 ))}
 
 
