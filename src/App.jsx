@@ -1,7 +1,7 @@
 import React from 'react'
 import Home from './pages/Home/Home'
 import { BrowserRouter,Routes,Route } from 'react-router-dom'
-import Navbar from './components/nav/navbar'
+import Navbar from './components/nav/Navbar'
 import Footer from './components/footer/Footer'
 import { ToastContainer } from 'react-toastify';
 import Shop from './pages/Home/shop/Shop'
