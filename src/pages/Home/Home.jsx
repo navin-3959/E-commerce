@@ -1,6 +1,6 @@
 import React from 'react'
 import bg from "../../assets/bg0.gif"
-import Navbar from '../../components/nav/navbar'
+import Navbar from '../../components/nav/Navbar'
 import "./Home.css"
 import { category } from '../../Category'
 import Product from '../../components/products/Product'
